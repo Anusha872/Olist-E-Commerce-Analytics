@@ -11,7 +11,7 @@ conn = sqlite3.connect(db_path)
 st.set_page_config(page_title="Olist Analytics", layout="wide")
 
 st.title("📊 Olist Brazilian E-Commerce Analytics Report")
-st.caption("Full dataset — no sampling. Use the sidebar to filter by state.")
+
 
 # --- Filters ---
 st.sidebar.header("Filters")
@@ -222,9 +222,9 @@ with st.container(border=True):
 st.divider()
 
 st.write("""
-### What is this?
+### Conclusion
 This is a full analytics report dashboard built on the complete Olist dataset (no sampling).
 It combines revenue analysis, product performance, delivery/logistics health, and customer 
-value segmentation (RFM) in one view — the kind of report a real e-commerce ops or marketing 
+value segmentation (RFM) in one view , the kind of report a real e-commerce ops or marketing 
 team would use weekly to make decisions.
 """)
